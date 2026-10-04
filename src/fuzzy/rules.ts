@@ -1,0 +1,43 @@
+import type { FuzzyRule } from './types';
+
+export const rules: FuzzyRule[] = [
+  { color: 'green', firmness: 'hard', days: 'early', output: 'notReady' },
+  { color: 'green', firmness: 'hard', days: 'middle', output: 'nearlyReady' },
+  { color: 'green', firmness: 'hard', days: 'late', output: 'nearlyReady' },
+  { color: 'green', firmness: 'medium', days: 'early', output: 'notReady' },
+  { color: 'green', firmness: 'medium', days: 'middle', output: 'nearlyReady' },
+  { color: 'green', firmness: 'medium', days: 'late', output: 'nearlyReady' },
+  { color: 'green', firmness: 'soft', days: 'early', output: 'notReady' },
+  { color: 'green', firmness: 'soft', days: 'middle', output: 'nearlyReady' },
+  { color: 'green', firmness: 'soft', days: 'late', output: 'ready' },
+
+  { color: 'turning', firmness: 'hard', days: 'early', output: 'notReady' },
+  { color: 'turning', firmness: 'hard', days: 'middle', output: 'nearlyReady' },
+  { color: 'turning', firmness: 'hard', days: 'late', output: 'ready' },
+  { color: 'turning', firmness: 'medium', days: 'early', output: 'notReady' },
+  { color: 'turning', firmness: 'medium', days: 'middle', output: 'nearlyReady' },
+  { color: 'turning', firmness: 'medium', days: 'late', output: 'ready' },
+  { color: 'turning', firmness: 'soft', days: 'early', output: 'nearlyReady' },
+  { color: 'turning', firmness: 'soft', days: 'middle', output: 'ready' },
+  { color: 'turning', firmness: 'soft', days: 'late', output: 'ready' },
+
+  { color: 'yellow', firmness: 'hard', days: 'early', output: 'nearlyReady' },
+  { color: 'yellow', firmness: 'hard', days: 'middle', output: 'nearlyReady' },
+  { color: 'yellow', firmness: 'hard', days: 'late', output: 'ready' },
+  { color: 'yellow', firmness: 'medium', days: 'early', output: 'nearlyReady' },
+  { color: 'yellow', firmness: 'medium', days: 'middle', output: 'ready' },
+  { color: 'yellow', firmness: 'medium', days: 'late', output: 'ready' },
+  { color: 'yellow', firmness: 'soft', days: 'early', output: 'ready' },
+  { color: 'yellow', firmness: 'soft', days: 'middle', output: 'ready' },
+  { color: 'yellow', firmness: 'soft', days: 'late', output: 'overripe' },
+
+  { color: 'orange', firmness: 'hard', days: 'early', output: 'ready' },
+  { color: 'orange', firmness: 'hard', days: 'middle', output: 'ready' },
+  { color: 'orange', firmness: 'hard', days: 'late', output: 'overripe' },
+  { color: 'orange', firmness: 'medium', days: 'early', output: 'ready' },
+  { color: 'orange', firmness: 'medium', days: 'middle', output: 'overripe' },
+  { color: 'orange', firmness: 'medium', days: 'late', output: 'overripe' },
+  { color: 'orange', firmness: 'soft', days: 'early', output: 'ready' },
+  { color: 'orange', firmness: 'soft', days: 'middle', output: 'overripe' },
+  { color: 'orange', firmness: 'soft', days: 'late', output: 'overripe' },
+];
